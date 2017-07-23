@@ -12,7 +12,7 @@ Rails.application.configure do
   
   
   config.action_mailer.delivery_method = :smtp 
-config.action_mailer.default_url_options = { :host => 'oscar-photo-app.herokuapp.com', :protocol => http}
+config.action_mailer.default_url_options = { :host => 'oscar-photo-app.herokuapp.com'}
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
